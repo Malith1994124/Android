@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enterappointment_newAppointmentHeader">Enter new appointment</string>
+    <string name="enterappointment_btnSaveData">Save Data</string>
+    <string name="enterappointment_btnClearForm">Clear Data</string>
+    <string name="enterappointment_selectedDateIsLower">The selected date is lower than the current date, Please go back and select a different date.</string>
+    <string name="enterappointment_altreadyexists">Appointment %111111111% already exists, please choose a different event title.</string>
+    <string name="enterappointment_titleOrDescriptionCantBeEmpty">Title of the event and the description can not be empty.</string>
+    <string name="enterappointment_successfullEntry">Appointment %111111111% sueccfully </string>
+    <string name="enterappointment_added">added</string>
+    <string name="enterappointment_updated">updated</string>
+</resources>

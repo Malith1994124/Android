@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_btnViewEditAppoinment">View/Edit Appoinment</string>
+    <string name="main_btnDeleteAppointment">Remove Appointment</string>
+    <string name="main_btnMoveAppointment">Move Appointment</string>
+    <string name="main_btnSearchAppoinment">Search Appoinments</string>
+    <string name="main_appointmentHeader">Solution by Panda</string>
+    <string name="main_appointmentHeader1">Select the Date</string>
+    <string name="main_btnAddAppoinment">New Appoinment</string>
+    <string name="main_btnTranslateAppoinment">Translate Appoinment</string>
+    <string name="main_btnClearAllRecords">Clear all !</string>
+    <string name="main_allAppointmentsDeleteByDate">All the appointments scheduled on %111111111% was deleted.</string>
+    <string name="main_doYouWantToDeleteRecords">Are you sure you want to delete all the records in the database ?</string>
+    <string name="main_allRecsDeleted">All the records were deleted successfully</string>
+    <string name="main_allRecsDeletedError">An error has encountered during deletion</string>
+    <string name="main_exit">Exit</string>
+</resources>

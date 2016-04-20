@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deleteappointments_viewappointments">All appointments for the selected date</string>
+    <string name="deleteappointments_defaultDeleteDateHeader">Selected Date</string>
+    <string name="deleteappointments_enterIndexToDelete">Enter a index to delete : </string>
+    <string name="deleteappointments_btnDeleteByIndex">Delete</string>
+    <string name="deleteappointments_recordDoesNotExist">Record does not exists for the selected index, Pleas enter valid index.</string>
+    <string name="deleteappointments_selectAvalidIndex">Please enter a valid index.</string>
+    <string name="deleteappointments_wouldLikeToDeleteEvent">Would you like to delete event : %111111111% ?</string>
+    <string name="deleteappointments_noRecordsFoundForTheDate">No records found for the selected date : </string>
+    <string name="deleteappointments_successfullyDeleted">Appointment %111111111% successfully deleted</string>
+
+</resources>

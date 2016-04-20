@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="moveappointment_moveappointmentheader">Select an appointment to move</string>
+    <string name="moveappointment_selectadatetomove">Select the date to move the appointment : </string>
+    <string name="moveappointment_selectadtimetomove">Select the time to move the appointment : </string>
+    <string name="moveappointment_moveappointment">Move appointment</string>
+    <string name="moveappointment_successfullyMoved">Appointment : %111111111% successfully moved.</string>
+    <string name="moveappointment_theSelectedDateIsLower">The selected date is lower than the current date, Please go back and select a different date.</string>
+
+</resources>

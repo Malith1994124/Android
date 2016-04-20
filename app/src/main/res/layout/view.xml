@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space"/>
+    <ListView
+        android:id="@+id/lvViewAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:id="@+id/space1" android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tvViewAppointments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the appointment you want to edit"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space2"/>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space3"/>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space4"/>
+    <Button
+        android:id="@+id/btnViewByDateBack"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="btnViewByDateBack_Click" android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="searchappointments_appointmentsearchheader">Search appointments</string>
+    <string name="searchappointments_btnappointmentsearch">Search</string>
+    <string name="searchappointments_appointmentsearch">Search : </string>
+    <string name="searchappointments_noSearchResults">No Search Results</string>
+</resources>

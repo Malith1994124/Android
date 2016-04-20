@@ -1,0 +1,14 @@
+<resources>
+    <string name="common_blankText">&quot;&quot;</string>
+    <string name="common_DescriptionAppointment">Description :</string>
+    <string name="common_Title">Title :</string>
+    <string name="common_enterTimeOfAppointment">Time :</string>
+    <string name="common_enterDateOfAppointment">Date :</string>
+    <string name="common_OptionHeader">Choose a option</string>
+    <string name="common_Back">Back</string>
+    <string name="common_Error">Error</string>
+    <string name="common_success">Success</string>
+    <string name="common_splitString">%111111111%</string>
+    <string name="common_selectedTimeIsLower">The selected time is lower than the current time.</string>
+    <string name="common_messageTitle">Message</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvSearchEditMoveOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a option"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space"/>
+
+
+    <RadioGroup
+        android:id="@+id/rgSearchEditMoveOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbSearchEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Appointment"
+            android:hint="0" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="20px"
+            android:id="@+id/space0"/>
+
+
+        <RadioButton
+            android:id="@+id/rbSearchMove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move Appointment"
+            android:hint="1"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="20px"
+            android:id="@+id/space1"/>
+
+        <RadioButton
+            android:id="@+id/rbSeachEditMoveBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:hint="2"/>
+    </RadioGroup>
+
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deleteoptions_deleteAllByDate">Delete all the appointments of the date</string>
+    <string name="deleteoptions_deleteAllByIndex">Select appointment to delete</string>
+    <string name="deleteOptions_Header">Delete Options</string>
+</resources>

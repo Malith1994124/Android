@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDeleteApptHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All appointments for the selected date"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space"/>
+
+
+    <TextView
+        android:id="@+id/tvAppDeleteSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space0"/>
+
+    <TableRow
+        android:id="@+id/trDeleteOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tvSelectAppDeleteIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter index to delete"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtSelectedDeleteIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="number"
+            android:layout_weight="0.89">
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:id="@+id/space1"/>
+
+    <TableRow
+        android:id="@+id/trButtonOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="btnBack_Click"
+            android:layout_weight="0.46" />
+
+        <Button
+            android:id="@+id/btnDeleteAppIndex"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:onClick="btnDeleteAppIndex_Click"
+            android:layout_weight="0.44" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lvDeleteAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="311dp">
+
+    </ListView>
+</LinearLayout>
